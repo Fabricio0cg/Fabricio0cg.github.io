@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #103850;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.adicionar-destaque {
+
+    background-color:#103850;
+   color: white;
+   border-radius: 5px;
+ 
+}
+
+.destaque {
+    background-color: #0992ab;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.destaque img {
+    max-width: 100%;
+}
+
+.produtos {
+    background-color: #fff;
+   color: rgb(0, 0, 0);
+   border-radius: 5px;
+}
+
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.produto {
+    width: 200px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #0992ab;
+    background-color: #fff;
+    text-align: center;
+}
+
+footer {
+    background-color: #103850;
+    color: #fff;
+    text-align: center;
+    padding: -5px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.color1 {
+    color: #103850;
+}
+
+.color2 {
+    color: #0d5e78;
+}
+
+.color3 {
+    color: #0992ab;
+}
+
+.color4 {
+    color: #05dae7;
+}
+
+.color5 {
+    color: #0ffff8;
+}
+
+.imagem {
+    width: 50%;
+    height: auto;
+}
